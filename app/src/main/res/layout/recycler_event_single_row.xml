@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:padding="50dp">
+
+    <TextView
+        android:id="@+id/txtNameOfEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:text="@string/name_of_event"
+
+
+        />
+    <TextView
+        android:id="@+id/txtStart_Time"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/txtNameOfEvent"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/start_time_n_of_event"
+        />
+    <TextView
+        android:id="@+id/txtEnd_Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_below="@+id/txtNameOfEvent"
+        android:layout_toRightOf="@+id/txtStart_Time"
+        android:text="@string/end_time_n_of_event"/>
+    <TextView
+        android:id="@+id/txtDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtEnd_Time"
+        android:text="@string/duration_of_event"
+        android:textSize="18sp"
+        />
+
+
+</RelativeLayout>
